@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.1">
+    <display-name>CRUD Web App</display-name>
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>UserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+</web-app>
